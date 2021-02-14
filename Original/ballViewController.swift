@@ -12,30 +12,12 @@ class ballViewController: UIViewController {
     
     @IBOutlet var image: UIImageView!
     
-    @IBOutlet var tanoshiball1: UIImageView!
-    @IBOutlet var tanoshiball2: UIImageView!
-    @IBOutlet var tanoshiball3: UIImageView!
-    @IBOutlet var tanoshiball4: UIImageView!
-    @IBOutlet var shiawaseball1: UIImageView!
-    @IBOutlet var shiawaseball2: UIImageView!
-    @IBOutlet var shiawaseball3: UIImageView!
-    @IBOutlet var shiawaseball4: UIImageView!
-    @IBOutlet var ikariball1: UIImageView!
-    @IBOutlet var ikariball2: UIImageView!
-    @IBOutlet var ikariball3: UIImageView!
-    @IBOutlet var ikariball4: UIImageView!
-    @IBOutlet var fuanball1: UIImageView!
-    @IBOutlet var fuanball2: UIImageView!
-    @IBOutlet var fuanball3: UIImageView!
-    @IBOutlet var fuanball4: UIImageView!
-    @IBOutlet var kokaiball1: UIImageView!
-    @IBOutlet var kokaiball2: UIImageView!
-    @IBOutlet var kokaiball3: UIImageView!
-    @IBOutlet var kokaiball4: UIImageView!
-    @IBOutlet var turaiball1: UIImageView!
-    @IBOutlet var turaiball2: UIImageView!
-    @IBOutlet var turaiball3: UIImageView!
-    @IBOutlet var turaiball4: UIImageView!
+    @IBOutlet var tanoshiBall: [UIImageView]!
+    @IBOutlet var shiawaseBall: [UIImageView]!
+    @IBOutlet var ikariBall: [UIImageView]!
+    @IBOutlet var fuanBall: [UIImageView]!
+    @IBOutlet var kokaiBall: [UIImageView]!
+    @IBOutlet var turaiBall: [UIImageView]!
     
     let saveData: UserDefaults = UserDefaults.standard
     
@@ -48,25 +30,49 @@ class ballViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-    
-        var tanoshicount = saveData.object(forKey: "tanoshi")
-        var shiawasecount = saveData.object(forKey: "shiawase")
-        var ikaricountn = saveData.object(forKey: "ikari")
-        var fuancount = saveData.object(forKey: "fuan")
-        var kokai = saveData.object(forKey: "kokai")
-        var turai = saveData.object(forKey: "turai")
         
+        //それぞれのボタンが押された回数がここで用意した変数に入る
+        let tanoshicount = saveData.object(forKey: "tanoshi") as? Int ?? 0
+        let shiawasecount = saveData.object(forKey: "shiawase") as? Int ?? 0
+        let ikaricount = saveData.object(forKey: "ikari") as? Int ?? 0
+        let fuancount = saveData.object(forKey: "fuan") as? Int ?? 0
+        let kokaicount = saveData.object(forKey: "kokai") as? Int ?? 0
+        let turaicount = saveData.object(forKey: "turai") as? Int ?? 0
         
+        if tanoshicount > 0 {
+            //for文でtanoshicountの回数だけ繰り返してtanoshiBallっていうUIImageViewに画像を表示する
+            for index in 0..<tanoshicount {
+                tanoshiBall[index].image = UIImage(named: "")
+            }
+            for index in 0..<shiawasecount {
+                shiawaseBall[index].image = UIImage(named: "")
+            }
+            for index in 0..<ikaricount {
+                ikariBall[index].image = UIImage(named: "")
+            }
+            
+            for index in 0..<fuancount {
+                fuanBall[index].image = UIImage(named: "")
+            }
+            
+            for index in 0..<kokaicount {
+                kokaiBall[index].image = UIImage(named: "")
+            }
+            
+            for index in 0..<turaicount {
+                turaiBall[index].image = UIImage(named: "")
+            }
+        }
     }
     
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destination.
-     // Pass the selected object to the new view controller.
-     }
-     */
-    
 }
+
+/*
+ // MARK: - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+ // Get the new view controller using segue.destination.
+ // Pass the selected object to the new view controller.
+ }
+ */
