@@ -42,25 +42,25 @@ class ballViewController: UIViewController {
         if tanoshicount > 0 {
             //for文でtanoshicountの回数だけ繰り返してtanoshiBallっていうUIImageViewに画像を表示する
             for index in 0..<tanoshicount {
-                tanoshiBall[index].image = UIImage(named: "")
+                tanoshiBall[index].image = UIImage(named: "tanoshiball.png")
             }
             for index in 0..<shiawasecount {
-                shiawaseBall[index].image = UIImage(named: "")
+                shiawaseBall[index].image = UIImage(named: "shiawaseball.png")
             }
             for index in 0..<ikaricount {
-                ikariBall[index].image = UIImage(named: "")
+                ikariBall[index].image = UIImage(named: "ikariball.png")
             }
             
             for index in 0..<fuancount {
-                fuanBall[index].image = UIImage(named: "")
+                fuanBall[index].image = UIImage(named: "fuan.png")
             }
             
             for index in 0..<kokaicount {
-                kokaiBall[index].image = UIImage(named: "")
+                kokaiBall[index].image = UIImage(named: "regretball.png")
             }
             
             for index in 0..<turaicount {
-                turaiBall[index].image = UIImage(named: "")
+                turaiBall[index].image = UIImage(named: "sadball.pngr")
             }
         }
     }
