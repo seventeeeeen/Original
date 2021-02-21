@@ -41,66 +41,86 @@
             
             if tanoshicount > 0 {
                 //for文でtanoshicountの回数だけ繰り返してtanoshiBallっていうUIImageViewに画像を表示する
-                for index in 0..<tanoshicount {
-                    if tanoshicount < 4 {
+                for var index in 0..<tanoshicount {
+                    if index < 4 {
                         tanoshiBall[index].image = UIImage(named: "tanoshiball.png")
-                    } else if tanoshicount < 8 {
-                        tanoshiBall[index].image = UIImage(named: "tanoshiball.png")
-                    } else {tanoshiBall[index].image = UIImage(named: "tanoshiball.png")
+                    } else if index < 8 {
+                        index = index % 4
+                         tanoshiBall[index].image = UIImage(named: "tanoshi2.png")
+                    } else {
+                        index = index % 4
+                        tanoshiBall[index].image = UIImage(named: "tanoshi3.png")
                     }
                 }
             }
             if shiawasecount > 0 {
-                for index in 0..<shiawasecount {
-                    if shiawasecount < 4 {
+                for var index in 0..<shiawasecount {
+                    if index < 4 {
                         shiawaseBall[index].image = UIImage(named: "happy.png")
-                    } else if shiawasecount < 8{
-                        shiawaseBall[index].image = UIImage(named: "happy.png")
-                    } else {shiawaseBall[index].image = UIImage(named: "happy.png")
+                        //shiawaseBall[index].alpha = 0.3
+                    } else if index < 8{
+                        index = index % 4
+                        shiawaseBall[index].image = UIImage(named: "happy2.png")
+                        //shiawaseBall[index].alpha = 0.6
+                    } else {
+                        index = index % 4
+                        shiawaseBall[index].image = UIImage(named: "happy3.png")
+                        //shiawaseBall[index].alpha = 1
                     }
                 }
             }
             if ikaricount > 0 {
-                for index in 0..<ikaricount {
-                    if ikaricount < 4 {
+                for var index in 0..<ikaricount {
+                    if index < 4 {
                         ikariBall[index].image = UIImage(named: "angry.png")
                     } else if ikaricount < 8{
-                        ikariBall[index].image = UIImage(named: "angry.png")
-                    } else {ikariBall[index].image = UIImage(named: "angry.png")
+                        index = index % 4
+                        ikariBall[index].image = UIImage(named: "angry2.png")
+                    } else {
+                        index = index % 4
+                        ikariBall[index].image = UIImage(named: "angry3.png")
                     }
                 }
             }
             
             if fuancount > 0 {
-                for index in 0..<fuancount {
-                    if fuancount < 4 {
+                for var index in 0..<fuancount {
+                    if index < 4 {
                         fuanBall[index].image = UIImage(named: "fuan.png")
-                    } else if fuancount < 8{
-                        fuanBall[index].image = UIImage(named: "fuan.png")
+                    } else if index < 8{
+                        index = index % 4
+                        fuanBall[index].image = UIImage(named: "fuan2.png")
                     }else {
-                        fuanBall[index].image = UIImage(named: "fuan.png")
+                        index = index % 4
+                        fuanBall[index].image = UIImage(named: "fuanball3.png")
                     }
                 }
             }
             
             if kokaicount > 0 {
-                for index in 0..<kokaicount {
-                    if kokaicount < 4 {
+                for var index in 0..<kokaicount {
+                    if index < 4 {
                         kokaiBall[index].image = UIImage(named: "nervous.png")
-                    } else if kokaicount < 8{
-                        kokaiBall[index].image = UIImage(named: "nervous.png")
-                    } else {kokaiBall[index].image = UIImage(named: "nervous.png")
+                    } else if index < 8{
+                        index = index % 4
+                        kokaiBall[index].image = UIImage(named: "nervous2.png")
+                    } else {
+                        index = index % 4
+                        kokaiBall[index].image = UIImage(named: "nervous3.png")
                     }
                 }
             }
             
             if turaicount > 0 {
-                for index in 0..<turaicount {
-                    if turaicount < 4 {
+                for var index in 0..<turaicount {
+                    if index < 4 {
                         turaiBall[index].image = UIImage(named: "sad.png")
-                    } else if turaicount < 8{
-                        turaiBall[index].image = UIImage(named: "sad.png")
-                    } else {turaiBall[index].image = UIImage(named: "sad.png")
+                    } else if index < 8{
+                        index = index % 4
+                        turaiBall[index].image = UIImage(named: "sad2.png")
+                    } else {
+                        index = index % 4
+                        turaiBall[index].image = UIImage(named: "sad3.png")
                     }
                 }
             }
