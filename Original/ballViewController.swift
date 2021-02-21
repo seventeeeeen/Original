@@ -74,11 +74,11 @@
             if fuancount > 0 {
                 for index in 0..<fuancount {
                     if fuancount < 4 {
-                        fuanBall[index].image = UIImage(named: "fuanball.png")
+                        fuanBall[index].image = UIImage(named: "fuan.png")
                     } else if fuancount < 8{
-                        fuanBall[index].image = UIImage(named: "fuanball.png")
+                        fuanBall[index].image = UIImage(named: "fuan.png")
                     }else {
-                        fuanBall[index].image = UIImage(named: "fuanball3.png")
+                        fuanBall[index].image = UIImage(named: "fuan.png")
                     }
                 }
             }

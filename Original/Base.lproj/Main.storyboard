@@ -135,9 +135,6 @@
                         <outletCollection property="kokaiBall" destination="Mat-a9-ldV" collectionClass="NSMutableArray" id="KOA-zc-yr7"/>
                         <outletCollection property="kokaiBall" destination="526-aP-TyU" collectionClass="NSMutableArray" id="FCQ-Bk-HYf"/>
                         <outletCollection property="ikariBall" destination="oP0-Bk-C9j" collectionClass="NSMutableArray" id="nAo-Hs-6ay"/>
-                        <outletCollection property="ikariBall" destination="WuN-dl-sVz" collectionClass="NSMutableArray" id="isl-FV-svu"/>
-                        <outletCollection property="ikariBall" destination="Uyn-OX-nQQ" collectionClass="NSMutableArray" id="Tpz-46-dqw"/>
-                        <outletCollection property="ikariBall" destination="HgR-36-Gdc" collectionClass="NSMutableArray" id="rxK-Qg-c0N"/>
                         <outletCollection property="fuanBall" destination="TRk-HK-qwK" collectionClass="NSMutableArray" id="AHc-dd-pgC"/>
                         <outletCollection property="fuanBall" destination="P7R-dn-Zul" collectionClass="NSMutableArray" id="Dsk-E8-w2Z"/>
                         <outletCollection property="fuanBall" destination="Hw2-zp-gIW" collectionClass="NSMutableArray" id="GiU-jW-u7Y"/>
@@ -146,6 +143,9 @@
                         <outletCollection property="tanoshiBall" destination="6DR-Wv-udI" collectionClass="NSMutableArray" id="ZiU-9e-g0B"/>
                         <outletCollection property="tanoshiBall" destination="9h3-Kh-okj" collectionClass="NSMutableArray" id="nNz-OZ-DJa"/>
                         <outletCollection property="tanoshiBall" destination="0BC-R2-sEQ" collectionClass="NSMutableArray" id="TOm-JW-IXy"/>
+                        <outletCollection property="ikariBall" destination="Uyn-OX-nQQ" collectionClass="NSMutableArray" id="MeX-tx-aj6"/>
+                        <outletCollection property="ikariBall" destination="WuN-dl-sVz" collectionClass="NSMutableArray" id="SIo-8P-VPW"/>
+                        <outletCollection property="ikariBall" destination="HgR-36-Gdc" collectionClass="NSMutableArray" id="RQj-3N-Zg6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7h-hx-rgA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -161,13 +161,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?How do you feel?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-pd-OIr">
-                                <rect key="frame" x="89" y="140" width="237" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbH-Rd-X4Q">
                                 <rect key="frame" x="103" y="232" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -200,6 +193,14 @@
                                 <state key="normal" image="fuan.png"/>
                                 <connections>
                                     <action selector="tapFuanButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="sBG-hJ-kcD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfi-Uo-fuW">
+                                <rect key="frame" x="236" y="530" width="85" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="nervous.png"/>
+                                <connections>
+                                    <action selector="tapKokaiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="Ab3-Nu-Gta"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8n-SG-BO3">
@@ -259,20 +260,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfi-Uo-fuW">
-                                <rect key="frame" x="236" y="530" width="85" height="84"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?How do you feel?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-pd-OIr">
+                                <rect key="frame" x="88" y="150" width="239" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="nervous.png"/>
-                                <connections>
-                                    <action selector="tapKokaiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="Ab3-Nu-Gta"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="f0r-bH-LNC"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="jCL-Lo-5au"/>
                     <connections>
+                        <outlet property="fuanbutton" destination="zyX-fL-LS3" id="N4C-Ny-wVk"/>
                         <outlet property="ikaributton" destination="yvu-Dh-0Ho" id="gCF-lk-EmB"/>
                         <outlet property="kokaibutton" destination="pfi-Uo-fuW" id="MMC-TY-ZNn"/>
                         <outlet property="shiawasebutton" destination="OKC-Zt-u3P" id="1bm-nq-Fdq"/>
