@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1509F825E1FDF8005B7DDC /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F025E1FDF7005B7DDC /* happy.png */; };
+		BF1509F925E1FDF9005B7DDC /* fuanball3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F125E1FDF7005B7DDC /* fuanball3.png */; };
+		BF1509FA25E1FDF9005B7DDC /* nervous.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F225E1FDF8005B7DDC /* nervous.png */; };
+		BF1509FB25E1FDF9005B7DDC /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F325E1FDF8005B7DDC /* sad.png */; };
+		BF1509FC25E1FDF9005B7DDC /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F425E1FDF8005B7DDC /* angry.png */; };
+		BF1509FD25E1FDF9005B7DDC /* tanoshiball.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F525E1FDF8005B7DDC /* tanoshiball.png */; };
+		BF150A0125E1FE57005B7DDC /* shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0025E1FE57005B7DDC /* shelf.png */; };
+		BF150A0325E20601005B7DDC /* fuan.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0225E205FD005B7DDC /* fuan.png */; };
 		BF1C485F25CF86D3005ACA7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C485E25CF86D2005ACA7C /* AppDelegate.swift */; };
 		BF1C486125CF86D3005ACA7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C486025CF86D3005ACA7C /* SceneDelegate.swift */; };
 		BF1C486325CF86D3005ACA7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C486225CF86D3005ACA7C /* ViewController.swift */; };
@@ -37,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1509F025E1FDF7005B7DDC /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		BF1509F125E1FDF7005B7DDC /* fuanball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuanball3.png; sourceTree = "<group>"; };
+		BF1509F225E1FDF8005B7DDC /* nervous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nervous.png; sourceTree = "<group>"; };
+		BF1509F325E1FDF8005B7DDC /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		BF1509F425E1FDF8005B7DDC /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		BF1509F525E1FDF8005B7DDC /* tanoshiball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanoshiball.png; sourceTree = "<group>"; };
+		BF150A0025E1FE57005B7DDC /* shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelf.png; sourceTree = "<group>"; };
+		BF150A0225E205FD005B7DDC /* fuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuan.png; sourceTree = "<group>"; };
 		BF1C485B25CF86D2005ACA7C /* Original.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Original.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1C485E25CF86D2005ACA7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF1C486025CF86D3005ACA7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +119,14 @@
 		BF1C485D25CF86D2005ACA7C /* Original */ = {
 			isa = PBXGroup;
 			children = (
+				BF1509F425E1FDF8005B7DDC /* angry.png */,
+				BF150A0225E205FD005B7DDC /* fuan.png */,
+				BF1509F125E1FDF7005B7DDC /* fuanball3.png */,
+				BF1509F025E1FDF7005B7DDC /* happy.png */,
+				BF1509F225E1FDF8005B7DDC /* nervous.png */,
+				BF1509F325E1FDF8005B7DDC /* sad.png */,
+				BF1509F525E1FDF8005B7DDC /* tanoshiball.png */,
+				BF150A0025E1FE57005B7DDC /* shelf.png */,
 				BF1C485E25CF86D2005ACA7C /* AppDelegate.swift */,
 				BF1C486025CF86D3005ACA7C /* SceneDelegate.swift */,
 				BF1C486225CF86D3005ACA7C /* ViewController.swift */,
@@ -239,8 +263,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1C486B25CF86DC005ACA7C /* LaunchScreen.storyboard in Resources */,
+				BF1509F925E1FDF9005B7DDC /* fuanball3.png in Resources */,
 				BF1C486825CF86DC005ACA7C /* Assets.xcassets in Resources */,
+				BF1509F825E1FDF8005B7DDC /* happy.png in Resources */,
+				BF150A0325E20601005B7DDC /* fuan.png in Resources */,
+				BF1509FD25E1FDF9005B7DDC /* tanoshiball.png in Resources */,
+				BF1509FA25E1FDF9005B7DDC /* nervous.png in Resources */,
+				BF1509FC25E1FDF9005B7DDC /* angry.png in Resources */,
 				BF1C486625CF86D3005ACA7C /* Main.storyboard in Resources */,
+				BF150A0125E1FE57005B7DDC /* shelf.png in Resources */,
+				BF1509FB25E1FDF9005B7DDC /* sad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
