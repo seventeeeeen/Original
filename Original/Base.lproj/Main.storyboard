@@ -15,13 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shelf.png" translatesAutoresizingMaskIntoConstraints="NO" id="qAQ-Wc-Kgw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shelf.png" translatesAutoresizingMaskIntoConstraints="NO" id="qAQ-Wc-Kgw">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8sZ-qN-PyC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8sZ-qN-PyC">
                                 <rect key="frame" x="26" y="94" width="83" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tgV-AX-r28">
                                 <rect key="frame" x="214" y="94" width="83" height="83"/>
@@ -35,9 +33,8 @@
                                 <rect key="frame" x="121" y="94" width="83" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TRk-HK-qwK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TRk-HK-qwK">
                                 <rect key="frame" x="24" y="285" width="83" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hw2-zp-gIW">
                                 <rect key="frame" x="212" y="285" width="83" height="83"/>
@@ -47,9 +44,8 @@
                                 <rect key="frame" x="307" y="285" width="83" height="83"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7R-dn-Zul">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7R-dn-Zul">
                                 <rect key="frame" x="119" y="285" width="83" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oP0-Bk-C9j">
                                 <rect key="frame" x="20" y="387" width="83" height="83"/>
@@ -117,6 +113,19 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TRk-HK-qwK" firstAttribute="centerY" secondItem="lg8-n3-Apg" secondAttribute="centerY" id="8Pt-A8-i4q"/>
+                            <constraint firstItem="qAQ-Wc-Kgw" firstAttribute="leading" secondItem="i9V-cb-xJJ" secondAttribute="leading" id="97h-oE-D1p"/>
+                            <constraint firstItem="P7R-dn-Zul" firstAttribute="centerX" secondItem="lg8-n3-Apg" secondAttribute="centerX" id="AgE-0g-r5q"/>
+                            <constraint firstItem="qAQ-Wc-Kgw" firstAttribute="bottom" secondItem="i9V-cb-xJJ" secondAttribute="bottom" id="TRt-oS-iaP"/>
+                            <constraint firstItem="qAQ-Wc-Kgw" firstAttribute="trailing" secondItem="i9V-cb-xJJ" secondAttribute="trailing" id="aa8-sy-ZZ4"/>
+                            <constraint firstItem="qAQ-Wc-Kgw" firstAttribute="top" secondItem="i9V-cb-xJJ" secondAttribute="top" id="dzx-kI-CpN"/>
+                            <constraint firstItem="TRk-HK-qwK" firstAttribute="centerX" secondItem="lg8-n3-Apg" secondAttribute="centerX" id="erK-6z-wpG"/>
+                            <constraint firstItem="8sZ-qN-PyC" firstAttribute="centerY" secondItem="lg8-n3-Apg" secondAttribute="centerY" id="jiT-YQ-YVm"/>
+                            <constraint firstItem="8sZ-qN-PyC" firstAttribute="centerX" secondItem="lg8-n3-Apg" secondAttribute="centerX" id="oWl-8x-e74"/>
+                            <constraint firstItem="P7R-dn-Zul" firstAttribute="centerY" secondItem="lg8-n3-Apg" secondAttribute="centerY" id="plF-Me-fYi"/>
+                            <constraint firstItem="qAQ-Wc-Kgw" firstAttribute="centerY" secondItem="lg8-n3-Apg" secondAttribute="centerY" id="w6S-Xg-1Wi"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="i9V-cb-xJJ"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="ZFK-7d-aif"/>
@@ -155,15 +164,13 @@
         <!--Item 1-->
         <scene sceneID="hdY-c2-nea">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vAC-fV-rYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Lz2-ix-6Xn" customClass="kimochiViewController" customModule="Original" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jEe-F7-Cnc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbH-Rd-X4Q">
-                                <rect key="frame" x="103" y="232" width="85" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbH-Rd-X4Q">
+                                <rect key="frame" x="97" y="293" width="85" height="85"/>
                                 <state key="normal" image="tanoshiball.png">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -171,16 +178,15 @@
                                     <action selector="tapTanoshiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="rNU-nX-G2k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKC-Zt-u3P">
-                                <rect key="frame" x="236" y="232" width="85" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKC-Zt-u3P">
+                                <rect key="frame" x="236" y="293" width="85" height="85"/>
                                 <state key="normal" image="happy.png"/>
                                 <connections>
                                     <action selector="tapShiawaseButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="aIv-M5-8rJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvu-Dh-0Ho">
-                                <rect key="frame" x="103" y="382" width="85" height="85"/>
+                                <rect key="frame" x="97" y="443" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="angry.png"/>
                                 <connections>
@@ -188,7 +194,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyX-fL-LS3">
-                                <rect key="frame" x="236" y="382" width="85" height="85"/>
+                                <rect key="frame" x="236" y="443" width="85" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="fuan.png"/>
                                 <connections>
@@ -196,44 +202,36 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfi-Uo-fuW">
-                                <rect key="frame" x="236" y="530" width="85" height="84"/>
+                                <rect key="frame" x="236" y="591" width="85" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="nervous.png"/>
                                 <connections>
                                     <action selector="tapKokaiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="Ab3-Nu-Gta"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8n-SG-BO3">
-                                <rect key="frame" x="99" y="530" width="85" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="sad.png"/>
-                                <connections>
-                                    <action selector="tapTuraiiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="7P6-55-RV4"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="楽しい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOb-K4-h98">
-                                <rect key="frame" x="119" y="325" width="52" height="21"/>
+                                <rect key="frame" x="113" y="385" width="52" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="幸せ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goH-zy-pjk">
-                                <rect key="frame" x="261" y="325" width="35" height="21"/>
+                                <rect key="frame" x="261" y="386" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="怒り" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya7-LW-IRh">
-                                <rect key="frame" x="124" y="475" width="35" height="21"/>
+                                <rect key="frame" x="124" y="534" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="不安" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtp-ym-lWM">
-                                <rect key="frame" x="261" y="474" width="35" height="21"/>
+                                <rect key="frame" x="261" y="535" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -246,29 +244,52 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="悲しい・辛い" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcZ-0i-fdS">
-                                <rect key="frame" x="93" y="623" width="104" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="悔やしい" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9k-5g-TBF">
-                                <rect key="frame" x="251" y="623" width="70" height="21"/>
+                                <rect key="frame" x="251" y="684" width="70" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="?How do you feel?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-pd-OIr">
-                                <rect key="frame" x="88" y="150" width="239" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?How do you feel?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq0-pd-OIr">
+                                <rect key="frame" x="88" y="204" width="239" height="36"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jKn-FP-D7Y">
+                                <rect key="frame" x="163" y="90" width="89" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jKn-FP-D7Y" secondAttribute="height" multiplier="1:1" id="CDo-Rz-Jts"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8n-SG-BO3">
+                                <rect key="frame" x="97" y="590" width="85" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="sad.png"/>
+                                <connections>
+                                    <action selector="tapTuraiiButtonWithButton:" destination="Lz2-ix-6Xn" eventType="touchUpInside" id="7P6-55-RV4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="悲しい・辛い" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcZ-0i-fdS">
+                                <rect key="frame" x="87" y="683" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f0r-bH-LNC" firstAttribute="trailing" secondItem="Eq0-pd-OIr" secondAttribute="trailing" constant="87" id="0bQ-6r-6OY"/>
+                            <constraint firstItem="OKC-Zt-u3P" firstAttribute="leading" secondItem="FbH-Rd-X4Q" secondAttribute="trailing" constant="54" id="2bc-mb-zka"/>
+                            <constraint firstItem="FbH-Rd-X4Q" firstAttribute="top" secondItem="Eq0-pd-OIr" secondAttribute="bottom" constant="53" id="PEX-R8-DAo"/>
+                            <constraint firstItem="jKn-FP-D7Y" firstAttribute="leading" secondItem="f0r-bH-LNC" secondAttribute="leading" constant="163" id="Tps-UH-KXF"/>
+                            <constraint firstItem="jKn-FP-D7Y" firstAttribute="top" secondItem="f0r-bH-LNC" secondAttribute="top" constant="46" id="ak1-Gp-7TO"/>
+                            <constraint firstItem="f0r-bH-LNC" firstAttribute="trailing" secondItem="jKn-FP-D7Y" secondAttribute="trailing" constant="162" id="dhk-1y-sAN"/>
+                            <constraint firstItem="Eq0-pd-OIr" firstAttribute="top" secondItem="jKn-FP-D7Y" secondAttribute="bottom" constant="25" id="fFB-1I-yYe"/>
+                            <constraint firstItem="Eq0-pd-OIr" firstAttribute="leading" secondItem="f0r-bH-LNC" secondAttribute="leading" constant="88" id="tdV-kc-gN3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="f0r-bH-LNC"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="jCL-Lo-5au"/>
@@ -276,11 +297,13 @@
                         <outlet property="fuanbutton" destination="zyX-fL-LS3" id="N4C-Ny-wVk"/>
                         <outlet property="ikaributton" destination="yvu-Dh-0Ho" id="gCF-lk-EmB"/>
                         <outlet property="kokaibutton" destination="pfi-Uo-fuW" id="MMC-TY-ZNn"/>
+                        <outlet property="sentakuimage" destination="jKn-FP-D7Y" id="fQa-oO-Ghy"/>
                         <outlet property="shiawasebutton" destination="OKC-Zt-u3P" id="1bm-nq-Fdq"/>
                         <outlet property="tanoshibutton" destination="FbH-Rd-X4Q" id="gfn-eu-bdO"/>
                         <outlet property="turaibutton" destination="o8n-SG-BO3" id="js3-bB-bM0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vAC-fV-rYq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-762.31884057971024" y="-409.15178571428572"/>
         </scene>
