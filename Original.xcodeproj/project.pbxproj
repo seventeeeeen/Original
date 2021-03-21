@@ -12,14 +12,12 @@
 		BF1509FB25E1FDF9005B7DDC /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F325E1FDF8005B7DDC /* sad.png */; };
 		BF1509FC25E1FDF9005B7DDC /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F425E1FDF8005B7DDC /* angry.png */; };
 		BF1509FD25E1FDF9005B7DDC /* tanoshiball.png in Resources */ = {isa = PBXBuildFile; fileRef = BF1509F525E1FDF8005B7DDC /* tanoshiball.png */; };
-		BF150A0125E1FE57005B7DDC /* shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0025E1FE57005B7DDC /* shelf.png */; };
 		BF150A0325E20601005B7DDC /* fuan.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0225E205FD005B7DDC /* fuan.png */; };
 		BF150A0625E22D28005B7DDC /* sad3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0425E22D28005B7DDC /* sad3.png */; };
 		BF150A0725E22D28005B7DDC /* sad2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0525E22D28005B7DDC /* sad2.png */; };
 		BF150A0A25E23358005B7DDC /* happy3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0825E23357005B7DDC /* happy3.png */; };
 		BF150A0B25E23358005B7DDC /* happy2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0925E23357005B7DDC /* happy2.png */; };
 		BF150A0E25E23363005B7DDC /* tanoshi2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0C25E23361005B7DDC /* tanoshi2.png */; };
-		BF150A0F25E23363005B7DDC /* tanoshi3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A0D25E23362005B7DDC /* tanoshi3.png */; };
 		BF150A1225E2338B005B7DDC /* fuanball3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A1025E2338A005B7DDC /* fuanball3.png */; };
 		BF150A1325E2338B005B7DDC /* fuanball.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A1125E2338B005B7DDC /* fuanball.png */; };
 		BF150A1625E233AD005B7DDC /* nervous2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF150A1425E233AC005B7DDC /* nervous2.png */; };
@@ -37,6 +35,12 @@
 		BF1C488125CF86DD005ACA7C /* OriginalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C488025CF86DD005ACA7C /* OriginalUITests.swift */; };
 		BF1C488F25CFAF48005ACA7C /* kimochiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C488E25CFAF48005ACA7C /* kimochiViewController.swift */; };
 		BF1C489125CFAF61005ACA7C /* ballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C489025CFAF61005ACA7C /* ballViewController.swift */; };
+		BFE2E1942606EC250012D721 /* アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1932606EC240012D721 /* アートボード 1.png */; };
+		BFE2E1A8260703650012D721 /* unnamed2.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1A7260703630012D721 /* unnamed2.png */; };
+		BFE2E1AA2607038D0012D721 /* classic.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1A92607038D0012D721 /* classic.png */; };
+		BFE2E1AC260703C10012D721 /* unnamed3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1AB260703BF0012D721 /* unnamed3.png */; };
+		BFE2E1AE260704030012D721 /* tanoshi3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1AD260704020012D721 /* tanoshi3.png */; };
+		BFE2E1B22607057C0012D721 /* 77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFE2E1B12607057B0012D721 /* 77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,14 +66,12 @@
 		BF1509F325E1FDF8005B7DDC /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 		BF1509F425E1FDF8005B7DDC /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
 		BF1509F525E1FDF8005B7DDC /* tanoshiball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanoshiball.png; sourceTree = "<group>"; };
-		BF150A0025E1FE57005B7DDC /* shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelf.png; sourceTree = "<group>"; };
 		BF150A0225E205FD005B7DDC /* fuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuan.png; sourceTree = "<group>"; };
 		BF150A0425E22D28005B7DDC /* sad3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad3.png; sourceTree = "<group>"; };
 		BF150A0525E22D28005B7DDC /* sad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad2.png; sourceTree = "<group>"; };
 		BF150A0825E23357005B7DDC /* happy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy3.png; sourceTree = "<group>"; };
 		BF150A0925E23357005B7DDC /* happy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy2.png; sourceTree = "<group>"; };
 		BF150A0C25E23361005B7DDC /* tanoshi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanoshi2.png; sourceTree = "<group>"; };
-		BF150A0D25E23362005B7DDC /* tanoshi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanoshi3.png; sourceTree = "<group>"; };
 		BF150A1025E2338A005B7DDC /* fuanball3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuanball3.png; sourceTree = "<group>"; };
 		BF150A1125E2338B005B7DDC /* fuanball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuanball.png; sourceTree = "<group>"; };
 		BF150A1425E233AC005B7DDC /* nervous2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nervous2.png; sourceTree = "<group>"; };
@@ -93,6 +95,12 @@
 		BF1C488225CF86DD005ACA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF1C488E25CFAF48005ACA7C /* kimochiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kimochiViewController.swift; sourceTree = "<group>"; };
 		BF1C489025CFAF61005ACA7C /* ballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballViewController.swift; sourceTree = "<group>"; };
+		BFE2E1932606EC240012D721 /* アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アートボード 1.png"; sourceTree = "<group>"; };
+		BFE2E1A7260703630012D721 /* unnamed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed2.png; sourceTree = SOURCE_ROOT; };
+		BFE2E1A92607038D0012D721 /* classic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classic.png; sourceTree = SOURCE_ROOT; };
+		BFE2E1AB260703BF0012D721 /* unnamed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed3.png; sourceTree = SOURCE_ROOT; };
+		BFE2E1AD260704020012D721 /* tanoshi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tanoshi3.png; path = 1x/tanoshi3.png; sourceTree = "<group>"; };
+		BFE2E1B12607057B0012D721 /* 77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,10 +167,14 @@
 				BF1509F325E1FDF8005B7DDC /* sad.png */,
 				BF150A0525E22D28005B7DDC /* sad2.png */,
 				BF150A0425E22D28005B7DDC /* sad3.png */,
+				BFE2E1AD260704020012D721 /* tanoshi3.png */,
 				BF1509F525E1FDF8005B7DDC /* tanoshiball.png */,
 				BF150A0C25E23361005B7DDC /* tanoshi2.png */,
-				BF150A0D25E23362005B7DDC /* tanoshi3.png */,
-				BF150A0025E1FE57005B7DDC /* shelf.png */,
+				BFE2E1932606EC240012D721 /* アートボード 1.png */,
+				BFE2E1A7260703630012D721 /* unnamed2.png */,
+				BFE2E1A92607038D0012D721 /* classic.png */,
+				BFE2E1AB260703BF0012D721 /* unnamed3.png */,
+				BFE2E1B12607057B0012D721 /* 77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg */,
 				BF1C485E25CF86D2005ACA7C /* AppDelegate.swift */,
 				BF1C486025CF86D3005ACA7C /* SceneDelegate.swift */,
 				BF1C486225CF86D3005ACA7C /* ViewController.swift */,
@@ -298,8 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE2E1AC260703C10012D721 /* unnamed3.png in Resources */,
 				BF150A1725E233AD005B7DDC /* nervous3.png in Resources */,
+				BFE2E1A8260703650012D721 /* unnamed2.png in Resources */,
 				BF150A0A25E23358005B7DDC /* happy3.png in Resources */,
+				BFE2E1AA2607038D0012D721 /* classic.png in Resources */,
 				BF1C486B25CF86DC005ACA7C /* LaunchScreen.storyboard in Resources */,
 				BF150A0625E22D28005B7DDC /* sad3.png in Resources */,
 				BF1C486825CF86DC005ACA7C /* Assets.xcassets in Resources */,
@@ -307,7 +322,9 @@
 				BF1509F825E1FDF8005B7DDC /* happy.png in Resources */,
 				BF150A1225E2338B005B7DDC /* fuanball3.png in Resources */,
 				BF150A1D25E23FF3005B7DDC /* fuan2.png in Resources */,
+				BFE2E1AE260704030012D721 /* tanoshi3.png in Resources */,
 				BF150A0325E20601005B7DDC /* fuan.png in Resources */,
+				BFE2E1B22607057C0012D721 /* 77100070-クラシックなスタイルでベージュのレトロなシームレスな壁紙背景。.jpeg in Resources */,
 				BF150A1B25E233BA005B7DDC /* angry3.png in Resources */,
 				BF150A1A25E233BA005B7DDC /* angry2.png in Resources */,
 				BF150A0E25E23363005B7DDC /* tanoshi2.png in Resources */,
@@ -315,9 +332,8 @@
 				BF1509FD25E1FDF9005B7DDC /* tanoshiball.png in Resources */,
 				BF1509FA25E1FDF9005B7DDC /* nervous.png in Resources */,
 				BF1509FC25E1FDF9005B7DDC /* angry.png in Resources */,
-				BF150A0F25E23363005B7DDC /* tanoshi3.png in Resources */,
+				BFE2E1942606EC250012D721 /* アートボード 1.png in Resources */,
 				BF1C486625CF86D3005ACA7C /* Main.storyboard in Resources */,
-				BF150A0125E1FE57005B7DDC /* shelf.png in Resources */,
 				BF150A1325E2338B005B7DDC /* fuanball.png in Resources */,
 				BF150A0725E22D28005B7DDC /* sad2.png in Resources */,
 				BF1509FB25E1FDF9005B7DDC /* sad.png in Resources */,
